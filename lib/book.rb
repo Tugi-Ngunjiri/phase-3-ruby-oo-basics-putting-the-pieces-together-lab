@@ -22,7 +22,10 @@ const book = new.title("And Then There Were None")
 book.title # => "And Then There Were None"
 
 def initialize
+   attr_reader :title
     attr_accessor : name
+    attr_accessor : author
+
 end
  def initialize 
     attr_accessor :book,

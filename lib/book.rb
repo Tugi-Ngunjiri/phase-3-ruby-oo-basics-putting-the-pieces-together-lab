@@ -28,7 +28,7 @@ def initialize
 
 end
  def initialize 
-    attr_accessor :book,
+    attr_accessor :book
     page.number = "10 page counts"
     book.genre = "Genre"
  end

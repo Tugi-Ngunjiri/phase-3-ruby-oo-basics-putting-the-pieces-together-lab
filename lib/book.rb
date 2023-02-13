@@ -29,12 +29,14 @@ def initialize
 end
  def initialize 
     attr_accessor :book
+    Array Count(10)
     page.number = "10 page counts"
     book.genre = "Genre"
  end
 
  def initialize 
     attr_reader : page
+    Array turns(10)
     page.turns = "Can Make 10 Turns"
    end
 end
